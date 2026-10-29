@@ -1,0 +1,722 @@
+# Edexcel IGCSE Mathematics B — Ultimate 15-Minute Revision Sheet
+
+4MB1 Paper 1 · Hardest methods, formulas, expressions and examiner traps
+
+This is designed for rapid revision, not learning everything from scratch. It follows Pearson's official Mathematics B specification, including algebraic fractions, cubics, differentiation, matrices, probability, geometry and vectors. Paper 1 can assess any topic in the specification.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://qualifications.pearson.com\&sz=32)
+
+qualifications.pearson.com
+
++1
+
+
+
+## The 12 rules you must not forget
+
+1
+
+FACTOR FIRST
+
+Before simplifying complicated algebraic fractions.
+
+2
+
+COMMON DENOMINATOR
+
+Before adding or subtracting fractions.
+
+3
+
+RECIPROCAL
+
+When dividing fractions, flip the second fraction.
+
+4
+
+NEGATIVE INEQUALITY
+
+Multiply or divide by a negative → reverse the inequality sign.
+
+5
+
+STATIONARY POINT
+
+Differentiate, set derivative = 0, solve, substitute into original function.
+
+6
+
+PROBABILITY
+
+AND along a path = multiply; OR between separate cases = add.
+
+7
+
+WITHOUT REPLACEMENT
+
+Reduce the total and relevant quantities after each selection.
+
+8
+
+MATRICES
+
+Multiply row by column; AB usually differs from BA.
+
+9
+
+FUNCTIONS
+
+fg(x) means apply g first, then f.
+
+10
+
+QUADRATICS
+
+Factorise or use the quadratic formula; check both roots.
+
+11
+
+GEOMETRY
+
+Write reasons, not just angle values. Never assume the diagram is to scale.
+
+12
+
+FINAL ANSWER
+
+Check units, restrictions, signs, rounding and every requested result.
+
+## 1. Algebraic fractions — hardest expressions
+
+High-priority method
+
+Whenever you see huge algebraic fractions, cubics, repeated brackets, or denominators such as \\((3x-2)^2\\), follow this sequence.
+
+FACTOR → REWRITE → CANCEL → SIMPLIFY → CHECK RESTRICTIONS
+
+### Recognise these identities instantly
+
+| Expression          | Factorised form         |
+| ------------------- | ----------------------- |
+| \\(a^2-b^2\\)       | \\((a-b)(a+b)\\)        |
+| \\(a^2+2ab+b^2\\)   | \\((a+b)^2\\)           |
+| \\(a^2-2ab+b^2\\)   | \\((a-b)^2\\)           |
+| \\(a^3-b^3\\)       | \\((a-b)(a^2+ab+b^2)\\) |
+| \\(a^3+b^3\\)       | \\((a+b)(a^2-ab+b^2)\\) |
+| \\(x^2+(p+q)x+pq\\) | \\((x+p)(x+q)\\)        |
+
+Remember: minus between two cubes produces plus in the middle of the quadratic factor.
+
+### Worked example: a large fraction with cubes
+
+Simplify:
+
+\\[ \frac{27x^3-8}{9x^2-12x+4}\times\frac{3x-2}{3x+1} \\]
+
+Step 1 — Factor both expressions.
+
+\\[ 27x^3-8=(3x-2)(9x^2+6x+4) \\]
+
+\\[ 9x^2-12x+4=(3x-2)^2 \\]
+
+Step 2 — Rewrite the entire fraction.
+
+\\[ \frac{(3x-2)(9x^2+6x+4)}{(3x-2)^2} \times\frac{3x-2}{3x+1} \\]
+
+Step 3 — Cancel common factors.
+
+There are two factors of \\((3x-2)\\) above and two below.
+
+\\[ \boxed{\frac{9x^2+6x+4}{3x+1}} \\]
+
+Restrictions from the original denominator:
+
+\\[ x\ne\frac23,\qquad x\ne-\frac13 \\]
+
+Never forget:
+
+- \\((3x-2)(3x-2)=(3x-2)^2\\), not \\(9x^2-4\\).
+- You cancel factors, not individual terms joined by addition or subtraction.
+- You may cancel \\((x+2)\\) against \\((x+2)\\), but cannot cancel \\(x\\) from \\(\frac{x+2}{x+3}\\).
+- A factor removed by cancellation still gives an excluded value of \\(x\\).
+
+### Adding and subtracting algebraic fractions
+
+Example:
+
+\\[ \frac{2}{3x-2}-\frac{x+1}{(3x-2)^2} \\]
+
+The lowest common denominator is \\((3x-2)^2\\).
+
+\\[ =\frac{2(3x-2)-(x+1)}{(3x-2)^2} \\]
+
+\\[ =\boxed{\frac{5x-5}{(3x-2)^2}} \\]
+
+Watch the minus sign: \\(-(x+1)=-x-1\\).
+
+Rules for every operation:
+
+| Operation           | What to do                                              |
+| ------------------- | ------------------------------------------------------- |
+| Addition            | Find common denominator, then add numerators            |
+| Subtraction         | Find common denominator, subtract the entire numerator  |
+| Multiplication      | Factor, cancel, multiply                                |
+| Division            | Flip second fraction, then multiply                     |
+| Solving an equation | State restrictions, clear denominators, solve and check |
+
+## 2. Quadratics, cubics and equations
+
+### Quadratic formula
+
+For \\(ax^2+bx+c=0\\):
+
+\\[ \boxed{x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}} \\]
+
+Discriminant \\(D=b^2-4ac\\):
+
+- \\(D>0\\): two different real roots.
+- \\(D=0\\): one repeated real root.
+- \\(D<0\\): no real roots.
+
+### Completing the square
+
+\\[ x^2+bx+c= \left(x+\frac b2\right)^2+c-\frac{b^2}{4} \\]
+
+Example:
+
+\\[ x^2-6x+5=(x-3)^2-4 \\]
+
+Technique: halve the coefficient of \\(x\\), square it, then adjust the constant.
+
+For \\(ax^2+bx+c\\), factor out \\(a\\) from the first two terms before completing the square.
+
+### Cubic equations and factor theorem
+
+For a cubic \\(f(x)\\):
+
+1. Test a possible root \\(r\\).
+2. If \\(f(r)=0\\), then \\((x-r)\\) is a factor.
+3. Divide the cubic by \\((x-r)\\).
+4. Factorise or solve the remaining quadratic.
+
+For \\((ax-b)\\), test \\(x=b/a\\), not \\(x=b\\).
+
+Important identities:
+
+\\[ x^3-y^3=(x-y)(x^2+xy+y^2) \\]
+
+\\[ x^3+y^3=(x+y)(x^2-xy+y^2) \\]
+
+### Simultaneous equations
+
+Two linear equations: elimination or substitution.
+
+One linear + one quadratic:
+
+1. Rearrange the linear equation.
+2. Substitute into the quadratic.
+3. Expand and collect terms.
+4. Solve the resulting quadratic.
+5. Substitute both answers into the linear equation.
+
+Never give one solution if the quadratic produces two valid pairs.
+
+### Inequalities
+
+For \\(x^2-5x+4<0\\):
+
+\\[ (x-1)(x-4)<0 \\]
+
+Roots are \\(1\\) and \\(4\\). Since the parabola opens upwards, it is negative between the roots.
+
+\\[ \boxed{1\<x<4} \\]
+
+Remember:
+
+- \\(\lt,\gt\\): open-circle endpoints.
+- \\(\le,\ge\\): filled-circle endpoints.
+- Divide by a negative: reverse the inequality.
+- Quadratic inequalities: find roots, then use signs or a sketch.
+
+Shaded regions: rearrange to \\(y\\), use solid lines for inclusive inequalities, dashed lines for strict ones, then test a point such as \\((0,0)\\) if it is not on the boundary.
+
+## 3. Differentiation — stationary points, tangents and normals
+
+Essential
+
+### The power rule
+
+\\[ \boxed{\frac{d}{dx}(ax^n)=anx^{n-1}} \\]
+
+Examples:
+
+| Original     | Derivative     |
+| ------------ | -------------- |
+| \\(x^4\\)    | \\(4x^3\\)     |
+| \\(5x^3\\)   | \\(15x^2\\)    |
+| \\(-7x^2\\)  | \\(-14x\\)     |
+| \\(6x\\)     | \\(6\\)        |
+| \\(12\\)     | \\(0\\)        |
+| \\(x^{-2}\\) | \\(-2x^{-3}\\) |
+
+Differentiate every term separately. Constants become zero.
+
+### Stationary points — full technique
+
+Given:
+
+\\[ y=x^3-6x^2+9x+1 \\]
+
+Step 1 — Differentiate.
+
+\\[ \frac{dy}{dx}=3x^2-12x+9 \\]
+
+Step 2 — Set derivative equal to zero.
+
+\\[ 3x^2-12x+9=0 \\]
+
+\\[ 3(x-1)(x-3)=0 \\]
+
+Thus \\(x=1\\) or \\(x=3\\).
+
+Step 3 — Substitute into the ORIGINAL equation.
+
+\\[ y(1)=5,\quad y(3)=1 \\]
+
+Stationary points are:
+
+\\[ \boxed{(1,5)\text{ and }(3,1)} \\]
+
+Step 4 — Classify them.
+
+Use the second derivative:
+
+\\[ \frac{d^2y}{dx^2}=6x-12 \\]
+
+- At \\(x=1\\), second derivative is negative → local maximum.
+- At \\(x=3\\), second derivative is positive → local minimum.
+
+Therefore \\((1,5)\\) is a maximum and \\((3,1)\\) is a minimum.
+
+If the second derivative is zero, this test is inconclusive; check the gradient's sign on both sides.
+
+### Tangents and normals
+
+The derivative at a point is the tangent gradient.
+
+For a tangent through \\((x_1,y_1)\\):
+
+\\[ \boxed{y-y_1=m(x-x_1)} \\]
+
+The normal is perpendicular:
+
+\\[ m\_{\text{normal}}=-\frac{1}{m\_{\text{tangent}}} \\]
+
+If the tangent gradient is zero, the normal is vertical.
+
+Technique: differentiate → substitute the given \\(x\\) → find the gradient → calculate \\(y\\) → use the straight-line formula.
+
+### Motion questions
+
+\\[ v=\frac{ds}{dt},\qquad a=\frac{dv}{dt} \\]
+
+- Displacement → differentiate → velocity.
+- Velocity → differentiate → acceleration.
+- At rest → set \\(v=0\\).
+- Speed is the magnitude \\(|v|\\), not negative velocity.
+- Distance–time gradient = speed.
+- Displacement–time gradient = velocity.
+- Velocity–time gradient = acceleration.
+- Area under velocity–time graph = displacement; account for negative regions.
+- Area under speed–time graph = distance.
+
+Do not forget: Stationary means zero gradient. It does not automatically mean maximum or minimum.
+
+## 4. Probability — every major question type
+
+Pearson specifically includes probability trees, independent events, mutually exclusive events, simple conditional probability, complements, and expected frequency.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://qualifications.pearson.com\&sz=32)
+
+qualifications.pearson.com
+
+
+
+### Master probability rules
+
+| Question wording                  | Rule                                                   |
+| --------------------------------- | ------------------------------------------------------ |
+| Probability of A                  | Favourable outcomes ÷ total equally likely outcomes    |
+| NOT A                             | \\(1-P(A)\\)                                           |
+| A AND B, independent              | \\(P(A)\times P(B)\\)                                  |
+| A OR B, mutually exclusive        | \\(P(A)+P(B)\\)                                        |
+| A OR B, overlapping               | \\(P(A)+P(B)-P(A\cap B)\\)                             |
+| At least one success              | \\(1-P(\text{none})\\)                                 |
+| Exactly one success in two trials | Add the two paths: success–failure and failure–success |
+| Expected frequency                | Probability × number of trials                         |
+| Experimental probability          | Frequency observed ÷ number of trials                  |
+| Given that B happened             | Favourable outcomes within B ÷ total outcomes within B |
+
+### With and without replacement
+
+A bag contains 3 red and 2 blue balls.
+
+With replacement: probabilities remain unchanged after the first draw.
+
+\\[ P(RR)=\frac35\times\frac35=\frac9{25} \\]
+
+Without replacement: the denominator decreases because one ball is gone.
+
+\\[ P(RR)=\frac35\times\frac24=\frac3{10} \\]
+
+For exactly one red:
+
+\\[ P(RB)+P(BR) \\]
+
+\\[ =\frac35\times\frac24+\frac25\times\frac34 =\boxed{\frac35} \\]
+
+For at least one red:
+
+\\[ 1-P(BB)=1-\frac25\times\frac14 =\boxed{\frac9{10}} \\]
+
+Remember: For tree diagrams, multiply along each complete path, then add the separate paths that satisfy the question.
+
+### Conditional probability
+
+If the question says "given that the first ball was red", the first selection is already known.
+
+\\[ P(\text{second red given first red})=\frac24 \\]
+
+Do not multiply by \\(3/5\\) again.
+
+For two events:
+
+\\[ P(A\text{ given }B)=\frac{P(A\cap B)}{P(B)} \\]
+
+### Venn diagrams and sets
+
+| Symbol             | Meaning                  |
+| ------------------ | ------------------------ |
+| \\(A\cup B\\)      | A OR B, including both   |
+| \\(A\cap B\\)      | A AND B, common elements |
+| \\(A'\\)           | NOT A, complement        |
+| \\(A\subseteq B\\) | A is a subset of B       |
+| \\(n(A)\\)         | Number of elements in A  |
+| \\(\varnothing\\)  | Empty set                |
+| \\(\xi\\)          | Universal set            |
+| \\(A\setminus B\\) | A but not B              |
+
+\\[ n(A\cup B)=n(A)+n(B)-n(A\cap B) \\]
+
+Venn technique: Fill the middle intersection first, then the exclusive regions, and finally the outside. Check that everything totals the universal set.
+
+If you see \\((A\cup B)'\\), perform the operation inside the brackets first, then take the complement.
+
+### Other probability traps
+
+- Independent does not mean mutually exclusive.
+- Probabilities of all possible outcomes sum to 1.
+- For a fair six-sided die, each individual number has probability \\(1/6\\).
+- "At least two" includes two, three, four, etc.
+- "More than two" excludes two.
+- For unordered pairs, count both possible orders unless the problem's outcomes are already defined as unordered.
+
+## 5. Matrices — every essential operation
+
+Let
+
+\\[ A=\begin{pmatrix}a&b\\\c&d\end{pmatrix} \\]
+
+| Operation             | Rule                                                        |
+| --------------------- | ----------------------------------------------------------- |
+| Addition              | Add matching positions                                      |
+| Subtraction           | Subtract matching positions                                 |
+| Scalar multiplication | Multiply every entry                                        |
+| Matrix multiplication | Row × column                                                |
+| Determinant           | \\(ad-bc\\)                                                 |
+| Inverse               | \\(\frac1{ad-bc}\begin{pmatrix}d&-b\\\\-c&a\end{pmatrix}\\) |
+
+### Matrix multiplication
+
+\\[ \begin{pmatrix}a&b\\\c&d\end{pmatrix} \begin{pmatrix}e&f\\\g&h\end{pmatrix} = \begin{pmatrix} ae+bg&af+bh\\\ ce+dg&cf+dh \end{pmatrix} \\]
+
+Never multiply corresponding entries for ordinary matrix multiplication.
+
+- \\(AB\ne BA\\) in general.
+- \\(A(B+C)=AB+AC\\).
+- \\(AI=IA=A\\).
+- \\(A^{-1}A=I\\).
+- \\(A^{-1}\\) exists for a \\(2\times2\\) matrix only when \\(ad-bc\ne0\\).
+- The number of columns of the first matrix must equal the number of rows of the second.
+
+Solving matrix equations: If \\(AX=B\\), multiply on the left by \\(A^{-1}\\), giving \\(X=A^{-1}B\\).
+
+### Transformation matrices
+
+| Transformation             | Matrix                                        |
+| -------------------------- | --------------------------------------------- |
+| Reflection in x-axis       | \\(\begin{pmatrix}1&0\\\0&-1\end{pmatrix}\\)  |
+| Reflection in y-axis       | \\(\begin{pmatrix}-1&0\\\0&1\end{pmatrix}\\)  |
+| Reflection in \\(y=x\\)    | \\(\begin{pmatrix}0&1\\\1&0\end{pmatrix}\\)   |
+| 90° anticlockwise          | \\(\begin{pmatrix}0&-1\\\1&0\end{pmatrix}\\)  |
+| 90° clockwise              | \\(\begin{pmatrix}0&1\\\\-1&0\end{pmatrix}\\) |
+| 180° rotation              | \\(\begin{pmatrix}-1&0\\\0&-1\end{pmatrix}\\) |
+| Enlargement, scale \\(k\\) | \\(\begin{pmatrix}k&0\\\0&k\end{pmatrix}\\)   |
+
+For combined transformations, the right-hand matrix acts first.
+
+## 6. Functions, sequences and graphs
+
+### Function notation
+
+If \\(f(x)=2x+3\\), then \\(f(4)=11\\).
+
+For composite functions:
+
+\\[ fg(x)=f(g(x)) \\]
+
+Always do the inside function first.
+
+For an inverse:
+
+1. Replace \\(f(x)\\) with \\(y\\).
+2. Swap \\(x\\) and \\(y\\).
+3. Rearrange for \\(y\\).
+4. Write \\(f^{-1}(x)\\).
+
+Domain: permissible input values. Range: possible outputs.
+
+Exclude any value making a denominator zero.
+
+### Straight-line graphs
+
+\\[ y=mx+c,\qquad m=\frac{y_2-y_1}{x_2-x_1} \\]
+
+- Parallel lines: same gradient.
+- Perpendicular lines: product of gradients \\(=-1\\), when both gradients are defined.
+- At the intersection: both equations have the same \\(x,y\\).
+- x-intercept: set \\(y=0\\).
+- y-intercept: set \\(x=0\\).
+
+### Sequences
+
+Arithmetic sequence:
+
+\\[ u_n=a+(n-1)d \\]
+
+Where \\(a\\) is the first term and \\(d\\) is the common difference.
+
+For quadratic sequences, find the constant second difference:
+
+\\[ u_n=an^2+bn+c \\]
+
+The constant second difference is \\(2a\\).
+
+### Proportion
+
+- \\(y\propto x\\) → \\(y=kx\\)
+- \\(y\propto x^2\\) → \\(y=kx^2\\)
+- \\(y\propto 1/x\\) → \\(y=k/x\\)
+- \\(y\propto 1/x^2\\) → \\(y=k/x^2\\)
+
+Find \\(k\\) first, using the supplied values.
+
+## 7. Geometry and trigonometry — formula recap
+
+### Trigonometry
+
+\\[ \sin\theta=\frac{\text{opposite}}{\text{hypotenuse}} \\]
+
+\\[ \cos\theta=\frac{\text{adjacent}}{\text{hypotenuse}} \\]
+
+\\[ \tan\theta=\frac{\text{opposite}}{\text{adjacent}} \\]
+
+For non-right triangles:
+
+\\[ \frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C} \\]
+
+\\[ a^2=b^2+c^2-2bc\cos A \\]
+
+\\[ \text{Area}=\frac12 ab\sin C \\]
+
+Remember:
+
+- Sine rule: opposite side–angle pairs.
+- Cosine rule: three sides, or two sides and their included angle.
+- Check the ambiguous case when using the sine rule to find an angle.
+- Calculator must be in DEG mode.
+- Bearings are measured clockwise from North, using three figures.
+
+### Circle theorems
+
+| Situation                               | Rule                                 |
+| --------------------------------------- | ------------------------------------ |
+| Angle at centre vs circumference        | Centre = 2 × circumference           |
+| Angles in same segment                  | Equal                                |
+| Angle in semicircle                     | 90°                                  |
+| Opposite angles of cyclic quadrilateral | Sum to 180°                          |
+| Radius meets tangent                    | 90°                                  |
+| Tangents from same external point       | Equal lengths                        |
+| Tangent–chord angle                     | Equal to angle in alternate segment  |
+| Perpendicular from centre to chord      | Bisects chord                        |
+| Two intersecting chords                 | Products of their segments are equal |
+
+For external point P with secants PAB and PCD:
+
+\\[ PA\times PB=PC\times PD \\]
+
+For tangent PT and secant PAB:
+
+\\[ PT^2=PA\times PB \\]
+
+### Congruence vs similarity
+
+- Congruent: exactly the same size and shape.
+- Similar: same shape, possibly different size.
+- Congruence tests: SSS, SAS, ASA, RHS.
+- AAA proves similarity, not necessarily congruence.
+- SSA generally does not prove congruence.
+
+For similar shapes with linear scale factor \\(k\\):
+
+\\[ \text{Area factor}=k^2,\qquad \text{Volume factor}=k^3 \\]
+
+### Mensuration
+
+| Shape      | Essential formula                                      |
+| ---------- | ------------------------------------------------------ |
+| Triangle   | \\(\frac12 bh\\)                                       |
+| Trapezium  | \\(\frac12(a+b)h\\), where a,b are parallel sides      |
+| Circle     | \\(A=\pi r^2,\ C=2\pi r\\)                             |
+| Sector     | \\(A=\frac{\theta}{360}\pi r^2\\)                      |
+| Arc length | \\(L=\frac{\theta}{360}2\pi r\\)                       |
+| Cylinder   | \\(V=\pi r^2h\\)                                       |
+| Cone       | \\(V=\frac13\pi r^2h\\)                                |
+| Sphere     | \\(V=\frac43\pi r^3\\)                                 |
+| Prism      | \\(V=\text{cross-sectional area}\times\text{length}\\) |
+| Pyramid    | \\(V=\frac13\times\text{base area}\times h\\)          |
+
+Surface areas:
+
+\\[ \text{Cylinder}=2\pi r^2+2\pi rh \\]
+
+\\[ \text{Sphere}=4\pi r^2 \\]
+
+\\[ \text{Cone}=\pi r^2+\pi rl \\]
+
+Here \\(l\\) is the cone's slant height.
+
+3D cuboid diagonal:
+
+\\[ d=\sqrt{l^2+w^2+h^2} \\]
+
+Composite shapes: Split into basic shapes, calculate separately, then add or subtract. Don't include hidden/internal faces when calculating external surface area.
+
+## 8. Vectors
+
+For points \\(A\\) and \\(B\\):
+
+\\[ \overrightarrow{AB}=\mathbf b-\mathbf a \\]
+
+For \\(\mathbf v=\begin{pmatrix}a\\\b\end{pmatrix}\\):
+
+\\[ |\mathbf v|=\sqrt{a^2+b^2} \\]
+
+Unit vector:
+
+\\[ \frac{\mathbf v}{|\mathbf v|} \\]
+
+Vector proof rules:
+
+- Parallel vectors are scalar multiples.
+- Collinear points lie on the same straight line.
+- A midpoint divides a vector into two equal vectors.
+- If \\(M\\) divides \\(AB\\) in the ratio \\(p:q\\), then
+
+\\[ \overrightarrow{AM}=\frac{p}{p+q}\overrightarrow{AB} \\]
+
+Remember: Draw arrows and follow direction. \\(\overrightarrow{BA}=-\overrightarrow{AB}\\).
+
+## 9. Indices, surds, number and statistics
+
+### Index laws
+
+\\[ a^ma^n=a^{m+n} \qquad \frac{a^m}{a^n}=a^{m-n} \\]
+
+\\[ (a^m)^n=a^{mn} \qquad a^{-n}=\frac1{a^n} \\]
+
+\\[ a^{1/n}=\sqrt[n]{a} \qquad a^{m/n}=(\sqrt[n]{a})^m \\]
+
+\\[ (ab)^n=a^nb^n \\]
+
+Warning: \\((a+b)^2\ne a^2+b^2\\).
+
+### Surds
+
+\\[ \sqrt{ab}=\sqrt a\sqrt b \\]
+
+\\[ \sqrt{48}=4\sqrt3 \\]
+
+To rationalise:
+
+\\[ \frac1{\sqrt3}=\frac{\sqrt3}{3} \\]
+
+For denominator \\(a+\sqrt b\\), multiply by its conjugate \\(a-\sqrt b\\).
+
+### Number techniques
+
+- Standard form: \\(a\times10^n\\), with \\(1\le|a|<10\\).
+- Percentage multiplier: \\(1\pm r/100\\).
+- Reverse percentage: divide final amount by multiplier.
+- Repeated percentage change: use multiplier raised to the number of periods.
+- Bounds: use half the rounding interval above and below the stated value.
+- Ratio sharing: total ÷ sum of ratio parts, then multiply by each part.
+- HCF: lowest common prime powers.
+- LCM: highest prime powers.
+
+### Statistics
+
+\\[ \text{Mean}=\frac{\sum fx}{\sum f} \\]
+
+Grouped mean: use class midpoints as \\(x\\).
+
+\\[ \text{Frequency density}= \frac{\text{frequency}}{\text{class width}} \\]
+
+\\[ \text{Pie chart angle}= \frac{\text{frequency}}{\text{total}}\times360^\circ \\]
+
+- Median: middle ordered value.
+- Mode: most frequent value.
+- Modal class: class with highest frequency, not necessarily highest histogram density.
+- Histogram: frequency is proportional to bar area, not just height.
+- Estimate of grouped mean: use class midpoints.
+- Missing frequency: form an equation using the given total or mean.
+
+## Final 60-second examiner checklist
+
+Final accuracy checks
+
+0/10
+
+Factor expressions before cancelling
+
+Check both quadratic roots and invalid denominator values
+
+Reverse inequalities after division by a negative
+
+Use original function for stationary-point y-coordinates
+
+Classify stationary points; give tangent or normal equation if requested
+
+Multiply probability-tree branches, then add successful paths
+
+Change probabilities when selecting without replacement
+
+Multiply matrices row by column, in the correct order
+
+Check circle-theorem reasons and triangle congruence criteria
+
+Use DEG mode, correct units, appropriate rounding and sufficient working
+
+The most important exam technique: If a question looks complicated, identify which mathematical operation it is asking for before calculating. A huge algebraic fraction may require only factorisation; a long probability question may require only the complement rule; and a difficult-looking differentiation problem often becomes a quadratic after setting the derivative to zero.
+
+For the official scope and examination requirements, use the [Pearson Edexcel Mathematics B specification](https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Mathematics%20B/2016/Specification%20and%20sample%20assessments/international-gcse-in-mathematics-spec-b.pdf?utm_source=chatgpt.com).
